@@ -10,11 +10,11 @@ link: https://www.kaggle.com/datasets/prudhvi143413s/anthracnose-disease-in-chil
 I chose the ResNet-50 architecture due to its proven performance in image classification tasks. ResNet-50 is a deep convolutional neural network (CNN) with 50 layers, which allows it to learn complex features from the input images.
 
 ## Training
-### Data Preprocessing: I resized all images to a consistent size and normalized pixel values.
-### Model Initialization: I imported the pre-trained ResNet-50 model (with weights trained on ImageNet) and removed the top classification layer.
-### Custom Classification Layer: I added a new fully connected layer with two output classes: “Healthy” and “Anthracnose.”
-### Loss Function: I used Cross Entropy Loss as our criterion to optimize the model during training.
-### Optimizer: I employed the Adam optimizer for gradient-based weight updates.
+Data Preprocessing: I resized all images to a consistent size and normalized pixel values.
+Model Initialization: I imported the pre-trained ResNet-50 model (with weights trained on ImageNet) and removed the top classification layer.
+Custom Classification Layer: I added a new fully connected layer with two output classes: “Healthy” and “Anthracnose.”
+Loss Function: I used Cross Entropy Loss as our criterion to optimize the model during training.
+Optimizer: I employed the Adam optimizer for gradient-based weight updates.
 
 ## Training Process
 We split our dataset into training, validation, and test sets.
