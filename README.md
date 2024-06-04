@@ -11,9 +11,13 @@ I chose the ResNet-50 architecture due to its proven performance in image classi
 
 ## Training
 Data Preprocessing: I resized all images to a consistent size and normalized pixel values.
+
 Model Initialization: I imported the pre-trained ResNet-50 model (with weights trained on ImageNet) and removed the top classification layer.
+
 Custom Classification Layer: I added a new fully connected layer with two output classes: “Healthy” and “Anthracnose.”
+
 Loss Function: I used Cross Entropy Loss as our criterion to optimize the model during training.
+
 Optimizer: I employed the Adam optimizer for gradient-based weight updates.
 
 ## Training Process
