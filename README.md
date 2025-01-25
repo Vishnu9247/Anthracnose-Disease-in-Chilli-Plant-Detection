@@ -1,4 +1,4 @@
-# **Anthracnose Disease in Chilli Plant Detection 🌶️ (Using Deep Learning to Identify Affected Plants)**
+# **Anthracnose Disease in Chilli Plant Detection 🌶️ (Using Transfer Learning to Identify Affected Plants)**
 
 ## **Overview 🧠**
 
