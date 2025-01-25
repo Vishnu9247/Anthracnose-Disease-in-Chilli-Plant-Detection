@@ -51,8 +51,7 @@ Augmentation helps the model learn invariant features and prevents overfitting, 
 ## **Model Evaluation 📊**
 
 To measure the effectiveness of the trained model, we used the following evaluation metrics:
-- **Accuracy:** Overall percentage of correct classifications ✅.
-- **Confusion Matrix:** Visualized to understand **false positives** 🚫 and **false negatives** ❌, helping in model improvement.
+- **Accuracy:** The Model predicted the disease with 96.12% acuuracy ✅.
 
 ## **Conclusion 🎯**
 
