@@ -59,8 +59,7 @@ This deep learning model for detecting anthracnose disease in chili plants offer
 
 ## **Technologies Used 🔧**
 - **Deep Learning:** ResNet-50, Convolutional Neural Networks (CNNs)
-- **Frameworks:** TensorFlow, Keras
-- **Image Processing:** OpenCV
+- **Frameworks:** PyTorch
 - **Optimization:** Adam Optimizer
 - **Metrics:** Accuracy, Cross Entropy Loss, Confusion Matrix
 
